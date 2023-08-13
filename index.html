@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <!-- <link rel="icon"
+        href="https://static.vecteezy.com/system/resources/previews/018/923/124/original/hand-with-money-png.png"> -->
+    <title>Cash Book</title>
+</head>
+<h2>MY DEPOSITS</h2>
+<div class="container">
+    <h4>Account Balance (Euro)</h4>
+    <h1 id="balance">0.00€</h1>
+    <div class="income-expense-container">
+        <div>
+            <h4>Income</h4>
+            <p id="money-plus" class="money-plus">0.00</p>
+        </div>
+        <div>
+            <h4>Expense</h4>
+            <p id="money-minus" class="money-minus">0.00</p>
+        </div>
+    </div>
+    <h3>Transactions</h3>
+    <ul id="list" class="list">
+    </ul>
+    <h3>Add transaction</h3>
+    <form id="form">
+        <div class="form-controll">
+            <label for="text">Transaction</label>
+            <input type="text" id="text" placeholder="name of this transaction">
+        </div>
+        <div class="form-controll">
+            <label for="text">Amount (€)<br>
+                (+ Income, - Expense)
+            </label>
+
+            <input type="number" id="amount" placeholder="amount of money">
+        </div>
+        <button class="btn">Add</button>
+    </form>
+</div>
+
+<body>
+
+</body>
+
+</html>
